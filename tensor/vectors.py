@@ -42,7 +42,7 @@ def main() -> None:
         [[[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]], [[7.0, 8.0, 9.0], [10.0, 11.0, 12.0]]]
     )
     print(tensor_3d)
-
+j
     print("---Reshaping 3d tensor to have 3 cubes, 2 planes, and 2 points")
     print(tensor_3d.reshape(3, 2, -1))
     print("---Reshpaing 3d tensor to be 4 planes with 3 points")
@@ -52,7 +52,7 @@ def main() -> None:
     print("---Reshaping 3d tensor to be 2 cubes with 3 planes with 2 points")
     print(tensor_3d.reshape(2, 3, 2))
 
-    print("Create a 4d tensor ")
+    print("Create a 4d tensor with 2 tessaracts with 3 cubes ")
     tensor_4d = np.zeros((2, 3, 5, 5))
 
 
