@@ -10,7 +10,7 @@ X, y = iris.data, iris.target
 # print(y_one_hot)
 
 
-def create_model() -> Model:
+def create_nn() -> Model:
     """
         Create the model.
     """
@@ -34,7 +34,5 @@ def create_model() -> Model:
     return model
 
 
-def test_model(model: Model) -> None:
-    """
-        Test the model.
-    """
+if __name__ == "__main__":
+    create_nn()
